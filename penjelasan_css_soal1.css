@@ -1,0 +1,85 @@
+/* Mengatur font dasar dan tata letak utama halaman */
+body {
+    font-family: Arial, sans-serif;
+    /* Menggunakan font Arial atau sans-serif */
+    background-color: #f4f4f4;
+    /* Warna latar belakang abu terang */
+    margin: 0;
+    /* Menghilangkan margin bawaan browser */
+    padding: 0;
+    /* Menghilangkan padding bawaan browser */
+    display: flex;
+    /* Menggunakan Flexbox untuk memusatkan konten */
+    justify-content: center;
+    /* Memusatkan konten secara horizontal */
+    align-items: center;
+    /* Memusatkan konten secara vertikal */
+    height: 100vh;
+    /* Mengatur tinggi viewport 100% dari tinggi layar */
+}
+
+/* Gaya kontainer profil */
+.profile-container {
+    background-color: #fff;
+    /* Warna latar putih */
+    padding: 30px;
+    /* Ruang dalam kontainer */
+    border-radius: 10px;
+    /* Membuat sudut kontainer membulat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Efek bayangan untuk tampilan 3D ringan */
+    text-align: center;
+    /* Teks di dalam kontainer rata tengah */
+    max-width: 400px;
+    /* Lebar maksimum kontainer */
+}
+
+/* Gaya foto profil */
+.profile-photo {
+    width: 150px;
+    /* Lebar gambar */
+    height: 150px;
+    /* Tinggi gambar */
+    border-radius: 50%;
+    /* Membuat gambar menjadi lingkaran */
+    object-fit: cover;
+    /* Memastikan gambar tetap proporsional dan penuh */
+    margin-bottom: 20px;
+    /* Jarak bawah dari elemen selanjutnya */
+}
+
+/* Gaya judul nama */
+h1 {
+    margin: 10px 0;
+    /* Margin atas dan bawah 10px */
+    color: #333;
+    /* Warna teks abu gelap */
+}
+
+/* Gaya deskripsi singkat */
+.description {
+    color: #555;
+    /* Warna teks abu medium */
+    font-size: 14px;
+    /* Ukuran huruf kecil */
+    margin-bottom: 20px;
+    /* Jarak bawah dari elemen sosial media */
+}
+
+/* Gaya tautan media sosial */
+.social-links a {
+    display: inline-block;
+    /* Menampilkan link dalam satu baris */
+    margin: 0 10px;
+    /* Jarak kiri dan kanan antar link */
+    color: #007bff;
+    /* Warna biru link */
+    text-decoration: none;
+    /* Menghilangkan garis bawah link */
+}
+
+/* Efek hover saat mouse diarahkan ke link */
+.social-links a:hover {
+    text-decoration: underline;
+    /* Menambahkan garis bawah saat hover */
+}

@@ -1,0 +1,114 @@
+/* Mengatur gaya dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    /* Menggunakan font Arial */
+    background-color: #f0f4c3;
+    /* Warna latar belakang hijau muda */
+    display: flex;
+    /* Menggunakan Flexbox untuk tata letak */
+    justify-content: center;
+    /* Memusatkan konten secara horizontal */
+    align-items: start;
+    /* Menyusun konten dari atas */
+    padding: 50px;
+    /* Ruang di sekitar isi halaman */
+}
+
+/* Gaya kontainer utama To-Do List */
+.todo-container {
+    background-color: white;
+    /* Latar belakang putih */
+    padding: 30px;
+    /* Ruang di dalam kontainer */
+    border-radius: 10px;
+    /* Membulatkan sudut kontainer */
+    width: 100%;
+    max-width: 400px;
+    /* Lebar maksimum kontainer */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Bayangan lembut agar kontainer menonjol */
+}
+
+/* Gaya judul */
+h2 {
+    text-align: center;
+    /* Teks judul di tengah */
+    margin-bottom: 20px;
+    /* Jarak ke bawah */
+}
+
+/* Mengatur form input dan tombol */
+form {
+    display: flex;
+    /* Menyusun input dan tombol secara sejajar */
+    gap: 10px;
+    /* Jarak antar elemen input dan tombol */
+}
+
+/* Gaya input teks untuk tugas */
+input[type="text"] {
+    flex: 1;
+    /* Memenuhi sisa ruang yang tersedia */
+    padding: 10px;
+    /* Ruang dalam input */
+    border: 1px solid #ccc;
+    /* Garis abu tipis */
+    border-radius: 5px;
+    /* Sudut input membulat */
+}
+
+/* Gaya tombol "Tambah" */
+button {
+    padding: 10px 20px;
+    /* Ukuran tombol */
+    background-color: #8bc34a;
+    /* Warna hijau cerah */
+    border: none;
+    /* Menghilangkan border default */
+    color: white;
+    /* Warna teks putih */
+    border-radius: 5px;
+    /* Membulatkan sudut */
+    cursor: pointer;
+    /* Ubah kursor jadi tanda klik */
+}
+
+/* Efek hover saat tombol diarahkan kursor */
+button:hover {
+    background-color: #7cb342;
+    /* Warna hijau sedikit lebih gelap */
+}
+
+/* Gaya daftar tugas */
+ul {
+    list-style-type: none;
+    /* Menghilangkan bullet list */
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Gaya setiap item tugas (li) */
+li {
+    background-color: #e8f5e9;
+    /* Warna hijau muda */
+    padding: 10px;
+    /* Ruang dalam */
+    border-radius: 5px;
+    /* Membulatkan sudut */
+    margin-bottom: 10px;
+    /* Jarak antar tugas */
+    display: flex;
+    /* Menyusun teks tugas dan tombol sejajar */
+    justify-content: space-between;
+    /* Meletakkan teks dan tombol ke sisi berlawanan */
+    align-items: center;
+    /* Pusatkan secara vertikal */
+}
+
+/* Gaya tugas yang sudah diselesaikan */
+.completed {
+    text-decoration: line-through;
+    /* Memberi garis coret pada teks */
+    color: gray;
+    /* Warna teks abu-abu */
+}

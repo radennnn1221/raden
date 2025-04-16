@@ -1,0 +1,94 @@
+/* Mengatur tampilan dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    /* Gunakan font Arial */
+    background-color: #e0f7fa;
+    /* Latar belakang biru muda */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Gunakan Flexbox untuk tata letak */
+    justify-content: center;
+    /* Pusatkan horizontal */
+    align-items: start;
+    /* Tata vertikal di atas */
+    min-height: 100vh;
+    /* Tinggi minimum layar penuh */
+}
+
+/* Gaya kontainer form */
+.form-container {
+    background-color: white;
+    /* Latar belakang putih */
+    padding: 30px;
+    /* Ruang dalam */
+    margin-top: 50px;
+    /* Jarak dari atas */
+    border-radius: 10px;
+    /* Sudut membulat */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Bayangan lembut */
+    width: 100%;
+    max-width: 400px;
+    /* Lebar maksimal */
+}
+
+/* Gaya judul */
+h2 {
+    text-align: center;
+    /* Teks di tengah */
+    margin-bottom: 20px;
+}
+
+/* Gaya label input */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Gaya untuk input dan select */
+input,
+select {
+    width: 100%;
+    /* Lebar penuh */
+    padding: 8px;
+    /* Ruang dalam */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    /* Garis abu tipis */
+    border-radius: 5px;
+    /* Sudut sedikit membulat */
+}
+
+/* Gaya tombol */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d10202;
+    /* Biru terang */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    /* Tanda kursor klik */
+}
+
+/* Efek hover pada tombol */
+button:hover {
+    background-color: #0277bd;
+    /* Biru sedikit lebih gelap */
+}
+
+/* Kotak hasil yang muncul setelah submit */
+.result-box {
+    margin-top: 20px;
+    background-color: #f1f8e9;
+    /* Hijau muda */
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    /* Disembunyikan awalnya */
+}
